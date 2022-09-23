@@ -15,7 +15,7 @@ const Forecast = ({ title, items }) => {
           {items.map((item) => (
             <div class="col-4">
               <p className=""> {item.title}</p>
-              <img src={iconUrlFromCode(item.icon)} alt="" className="" />
+              <img src={iconUrlFromCode(item.icon)} alt="img" className="" />
               <p className="">{`${item.temp.toFixed()}°`}</p>
             </div>
           ))}
