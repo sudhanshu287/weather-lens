@@ -5,7 +5,7 @@ const Forecast = ({ title, items }) => {
   return (
     <div>
       <div className="row text-light">
-        <div className="col-sm-12 mt-4 px-4 border-bottom ">
+        <div className="col-sm-12 mt-4 px-4">
           <p className="text-uppercase ">{title}</p>
         </div>
       </div>
