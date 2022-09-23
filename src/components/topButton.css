@@ -1,0 +1,28 @@
+.btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 28px;
+  color: #fff;
+  font-weight: 500;
+}
+.btn:hover {
+  color: rgb(198, 216, 223) !important;
+}
+
+
+
+
+/* The heart of the matter */
+.testimonial-group > .row {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.testimonial-group > .row > .col-4 {
+  display: inline-block;
+}
+
+
+
