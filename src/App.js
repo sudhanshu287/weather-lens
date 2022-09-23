@@ -10,10 +10,9 @@ import "react-toastify/dist/ReactToastify.css";
 import getFormattedWeatherData from "./services/WeatherServices";
 import Navbar from "./pages/Navbar";
 import Footer from "./pages/Footer";
-import Contact from "./pages/Contact";
 
 function App() {
-  const [query, setQuery] = useState({ q: "london" });
+  const [query, setQuery] = useState({ q: "kanpur" });
   const [units, setUnits] = useState("metric");
   const [weather, setWeather] = useState(null);
 
@@ -39,21 +38,21 @@ function App() {
   };
   return (
     <div>
-      <Navbar/>
-      <div className={`container ${formatBackground()}`}>
+      <Navbar />
+      <div className={`container container-new ${formatBackground()}`}>
         <TopButton setQuery={setQuery} />
         <Input setQuery={setQuery} units={units} setUnits={setUnits} />
         {weather && (
           <div>
-            <TimeLocation weather={weather}/>
-            <TempretureAndDetails weather={weather}/>
+            <TimeLocation weather={weather} />
+            <TempretureAndDetails weather={weather} />
             <Forecast title="hourly forecast" items={weather.hourly} />
             <Forecast title="daily forecast" items={weather.daily} />
           </div>
         )}
         <ToastContainer autoClose={3000} theme="colored" newestOnTop={true} />
       </div>
-      
+
       <Footer />
     </div>
   );

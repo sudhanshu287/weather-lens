@@ -1,26 +1,24 @@
-:root{
-    
-        --tw-text-opacity: 1;
-        --tw-gradient-from: #0e7490;
+:root {
+  --tw-text-opacity: 1;
+  --tw-gradient-from: #0e7490;
 }
 
-.container{
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1rem;
-    background-color: rgb(255, 145, 0);
+.container-new {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.1rem;
+  background-color: rgb(255, 145, 0);
 
-    background: #7557e6;
-    background: linear-gradient(#7557e6 0%, #10168a 80%);
-    /* background: -webkit-linear-gradient(48deg,#7557e6 0%, #10168a 80%);
-    background: -moz-linear-gradient(48deg,#7557e6 0%, #10168a 80%); */
+  background: #7557e6;
+  background: linear-gradient(#7557e6 0%, #10168a 80%);
+  background: -webkit-linear-gradient(48deg, #7557e6 0%, #10168a 80%);
+  background: -moz-linear-gradient(48deg, #7557e6 0%, #10168a 80%);
 
-    box-shadow: 1px 16px 39px 3px rgba(26,25,22,0.75);
--webkit-box-shadow: 1px 16px 39px 3px rgba(26,25,22,0.75);
--moz-box-shadow: 1px 16px 39px 3px rgba(26,25,22,0.75);
-    
+  box-shadow: 1px 16px 39px 3px rgba(26, 25, 22, 0.75);
+  -webkit-box-shadow: 1px 16px 39px 3px rgba(26, 25, 22, 0.75);
+  -moz-box-shadow: 1px 16px 39px 3px rgba(26, 25, 22, 0.75);
 }
-.container-fluid-new{
-    max-width: 900px;
+.container-fluid-new {
+  max-width: 900px;
 }

@@ -34,7 +34,7 @@ const TempretureAndDetails = ({
       </div>
       <div className="row">
         <div className="col-sm-4 d-flex justify-content-center mt-4">
-          <img src={iconUrlFromCode(icon)} alt="img" className="img-fluid" />
+          <img src={iconUrlFromCode(icon)} alt="img" className="" />
         </div>
         <div className="col-sm-4 d-flex justify-content-center mt-4">
           <p className="h1 display-2">{`${temp.toFixed()}°`}</p>

@@ -2,9 +2,9 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="container-fluid mt-5 container-fluid-new">
+    <div className="container-fluid mt-5 footerColor">
       <div className="row border-top border-3 ">
-        <div className="col-sm-6 mt-5 text-center px-5">
+        <div className="col-sm-6 mt-5 text-center px-5 text-light">
           <h1>About Us</h1>
           <p className="">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod eum id
@@ -12,7 +12,7 @@ const Footer = () => {
             dicta sit, porro dolorum aliquid illum quisquam illo unde dolore.
           </p>
         </div>
-        <div className="col-sm-6 mt-5 text-center">
+        <div className="col-sm-6 mt-5 text-center text-light">
           <div>
             <h3>Quick Link</h3>
             <p>
