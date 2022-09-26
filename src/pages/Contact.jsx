@@ -1,5 +1,4 @@
 import React from "react";
-import "./Contact.css";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 const Contact = () => {

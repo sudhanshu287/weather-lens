@@ -12,7 +12,7 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 
 function Home() {
-  const [query, setQuery] = useState({ q: "kanpur" });
+  const [query, setQuery] = useState({ q: "moscow" });
   const [units, setUnits] = useState("metric");
   const [weather, setWeather] = useState(null);
 
@@ -32,9 +32,9 @@ function Home() {
 
   const formatBackground = () => {
     if (!weather) return "from-cyan-700 to-blue-700";
-    const threshold = units === "metric" ? 20 : 60;
+    const threshold = (units === "metric") ? 20 : 60;
     if (weather.temp <= threshold) return "from-cyan-700 to-blue-700";
-    return "from-yellow-700 to-orange-700";
+    return "yellowToOrange";
   };
   return (
     <div className="">

@@ -4,11 +4,15 @@
   margin-right: auto;
   margin-top: 1rem;
 
-  background: #7759e4;
+  background: #5f3cde;
   box-shadow: 1px 16px 39px 3px rgba(26, 25, 22, 0.75);
   -webkit-box-shadow: 1px 16px 39px 3px rgba(26, 25, 22, 0.75);
   -moz-box-shadow: 1px 16px 39px 3px rgba(26, 25, 22, 0.75);
 }
 .container-fluid-new {
   max-width: 900px;
+}
+.yellowToOrange{
+  background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,190,29,1) 0%, rgba(252,151,69,1) 99%);
 }

@@ -25,7 +25,7 @@ const TopButton = ({setQuery}) => {
     },
     {
       id: 6,
-      title: "Dubai",
+      title: "Moscow",
     },
   ];
   return (
