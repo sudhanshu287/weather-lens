@@ -30,7 +30,7 @@ const TopButton = ({setQuery}) => {
   ];
   return (
     
-    <div className="row d-none d-sm-flex py-4">
+    <div className="row d-none d-sm-flex pt-4 topButtonGradient">
       {cities.map((city) => (
         <div className="col-sm-2">
           <button className="btn" key={city.id}

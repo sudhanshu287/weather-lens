@@ -1,72 +1,44 @@
 import React from "react";
-import { UilThunderstorm } from "@iconscout/react-unicons";
-import "./pageStyle.css";
-import MovingText from "react-moving-text";
+import { UilThunderstorm, UilBars } from "@iconscout/react-unicons";
 
+import "./Navbar.css";
 const Navbar = () => {
- 
   return (
-    <div className="headerGradient ">
-      <nav class="navbar container-fluid navbar-expand-lg navbar-light container-fluid-new">
-        <div class="container-fluid">
-          <a class="navbar-brand h1 font-lg font-weight-bold" href="#">
-            <UilThunderstorm
-              size={70}
-              className="iconGradient mx-4 text-white rounded-4"
-            />
-
-            <MovingText
-              className="d-inline text-light h1"
-              type="fadeIn"
-              duration="1000ms"
-              delay="3s"
-              direction="alternate"
-              timing="linear"
-              iteration="15"
-              fillMode="none"
-            >
-              Weather Lens
-            </MovingText>
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon rounded-5"></span>
-          </button>
-          <div
-            class="collapse navbar-collapse mx-5"
-            id="navbarSupportedContent"
-          >
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link text-white" aria-current="page" href="#">
-                  <h4>Home</h4>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light" href="#">
-                  <p>About Us</p>
-                </a>
-              </li>
-
-              <li class="nav-item">
-                <a
-                  class="nav-link text-light"
-                  href="#"
-                  tabindex="-1"
-                  aria-disabled="true"
-                >
-                  Contact Us
-                </a>
-              </li>
-            </ul>
-          </div>
+    <div className="" id="nav-bar">
+      <nav class="navbar navbar-expand-lg navbar-light ">
+        <a class="navbar-brand mx-4 text-white" href="/">
+          <UilThunderstorm size={55} className="iconGradient" />{" "}
+          <span className="h1 ">Weather Lens</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <UilBars className="bars " size={30} />
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">
+                Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/About">
+                About Us
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Contact">
+                Contact Us
+              </a>
+            </li>
+          </ul>
         </div>
       </nav>
     </div>

@@ -10,19 +10,75 @@
 .btn:hover {
   color: rgb(198, 216, 223) !important;
 }
-
-
-
+.borderDetail {
+  padding: 10px;
+  border: 2px solid #fff;
+  border-radius: 0 20px 0 20px;
+}
+.borderDetail:hover {
+  background-image: linear-gradient(
+    45deg,
+    hsl(240deg 95% 15%) 0%,
+    hsl(244deg 72% 26%) 9%,
+    hsl(248deg 64% 38%) 18%,
+    hsl(251deg 60% 50%) 27%,
+    hsl(233deg 94% 63%) 36%,
+    hsl(204deg 100% 50%) 45%,
+    hsl(203deg 100% 71%) 55%,
+    hsl(199deg 95% 89%) 64%,
+    hsl(198deg 100% 79%) 73%,
+    hsl(199deg 100% 50%) 82%,
+    hsl(212deg 100% 50%) 91%,
+    hsl(247deg 100% 50%) 100%
+  );
+  color: black;
+}
 
 /* The heart of the matter */
 .testimonial-group > .row {
   display: block;
-  overflow-x: auto;
+  overflow-x: scroll;
+  overflow-y: hidden;
   white-space: nowrap;
+  
 }
 .testimonial-group > .row > .col-4 {
   display: inline-block;
+  margin-left: 10px;
+  margin-bottom: 20px;
 }
 
+/* search button css for input components */
+.btn-grad {
+  background-image: linear-gradient(to right, #1e3c72 0%, #2a5298  51%, #1e3c72  100%);
+  
+  padding: 5px 20px;
+
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  
+}
+
+/* Forecast border */
+.forcastBorder{
+  border:1px solid #fff;
+  border-radius: 0px 30px 20px 30px;
+  padding:8px;
+}
+
+
+
+         
+         
+         
 
 

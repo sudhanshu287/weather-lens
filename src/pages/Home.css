@@ -1,0 +1,14 @@
+.container-new {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+
+  background: #7759e4;
+  box-shadow: 1px 16px 39px 3px rgba(26, 25, 22, 0.75);
+  -webkit-box-shadow: 1px 16px 39px 3px rgba(26, 25, 22, 0.75);
+  -moz-box-shadow: 1px 16px 39px 3px rgba(26, 25, 22, 0.75);
+}
+.container-fluid-new {
+  max-width: 900px;
+}

@@ -1,0 +1,38 @@
+#nav-bar{
+  position: sticky;
+  top:0;
+  z-index: 10;
+  scroll-behavior: smooth;
+}
+.navbar{
+  background-image: linear-gradient(to right,#8436f2,#13034a);
+}
+ul{
+  margin-left: auto;
+}
+.navbar-nav li{
+  padding:0 30px;
+}
+.navbar-nav li a{
+  color:#fff !important;
+  font-weight: 600;
+  float: right;
+  text-align: left;
+}
+.bars{
+  color:#fff !important;
+}
+.navbar-toggler{
+  outline: none !important;
+  border: none;
+}
+.iconGradient {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgb(221, 72, 72) 50%,
+    rgb(223, 168, 91) 100%
+  );
+  border-radius: 18px;
+}
