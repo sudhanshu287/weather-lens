@@ -58,6 +58,11 @@ const Contact = () => {
                 </div>
               </div>
             </div>
+            <div className="row">
+              <div className="col-sm-12">
+              <button type="button" class="btn btn-dark">Submit</button>
+              </div>
+            </div>
           </form>
         </div>
       </div>
