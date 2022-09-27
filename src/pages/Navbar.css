@@ -6,6 +6,11 @@
 }
 .navbar{
   background-image: linear-gradient(to right,#8436f2,#13034a);
+
+
+  -webkit-box-shadow: 3px 18px 53px -8px rgba(105,99,105,1);
+-moz-box-shadow: 3px 18px 53px -8px rgba(105,99,105,1);
+box-shadow: 3px 18px 53px -8px rgba(105,99,105,1);
 }
 ul{
   margin-left: auto;
