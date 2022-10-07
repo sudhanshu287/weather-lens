@@ -14,5 +14,5 @@
 }
 .yellowToOrange{
   background: rgb(131,58,180);
-background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,190,29,1) 0%, rgba(252,151,69,1) 99%);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgb(253, 145, 29) 0%, rgb(238, 172, 119) 99%);
 }
